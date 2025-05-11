@@ -12,6 +12,134 @@
     />
   </head>
   <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-white">
+      <div class="container-fluid">
+        <!-- Toggler button for small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Flex container for main layout -->
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <!-- Left: Search -->
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <form class="d-flex me-auto" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+
+          <!-- Center: Logo -->
+          <a class="navbar-brand mx-auto" href="#">
+            <img
+              src="img/joxnews.png"
+              alt="Logo"
+              class="img-fluid"
+              style="max-height: 40px"
+            />
+          </a>
+
+          <!-- Right: Cart & Subscribe -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarContentRight"
+          >
+            <div class="d-flex gap-3 align-items-center ms-auto">
+              <h5 class="mb-0">Cart</h5>
+              <span class="badge text-bg-danger rounded-pill">5</span>
+              <button type="button" class="btn btn-secondary">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="container">
+      <div class="d-flex gap-4 justify-content-center">
+        <a style="text-decoration: none; color: #1f1f1f" href="#">
+          Entertainment
+        </a>
+        <a style="text-decoration: none; color: #1f1f1f" href="#"> Sports</a>
+        <a style="text-decoration: none; color: #1f1f1f" href="#"> Politics</a>
+        <a style="text-decoration: none; color: #1f1f1f" href="#"> Business</a>
+        <a style="text-decoration: none; color: #1f1f1f" href="#">
+          Technology</a
+        >
+        <a style="text-decoration: none; color: #1f1f1f" href="#"> Health</a>
+      </div>
+    </div>
+    <hr />
+
+    <!-- Hero Section -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-8">
+          <img class="img-fluid mb-4" src="img/hero1.png" alt="" />
+          <h5 class="fw-light fs-2">
+            Global Climate Summit Yeilds Mixed Results on Key Agreements
+          </h5>
+          <p>The Global stock market has reached unpredicted levels.</p>
+        </div>
+        <div class="col-4">
+          <div class="d-flex flex-column">
+            <div class="d-flex gap-3">
+              <img class="img-fluid" src="img/hero2.png" alt="" />
+              <div class="d-flex flex-column">
+                <h4>
+                  Blockchain Beyond Cryptocurrency: Revolutionizing Industries
+                </h4>
+                <p>Technology | 5 Mins</p>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex gap-3">
+              <img class="img-fluid" src="img/hero3.png" alt="" />
+              <div class="d-flex flex-column">
+                <h4>
+                  Blockchain Beyond Cryptocurrency: Revolutionizing Industries
+                </h4>
+                <p>Technology | 5 Mins</p>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex gap-3">
+              <img class="img-fluid" src="img/hero4.png" alt="" />
+              <div class="d-flex flex-column">
+                <h4>
+                  Blockchain Beyond Cryptocurrency: Revolutionizing Industries
+                </h4>
+                <p>Technology | 5 Mins</p>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex gap-3">
+              <img class="img-fluid" src="img/hero5.png" alt="" />
+              <div class="d-flex flex-column">
+                <h4>
+                  Blockchain Beyond Cryptocurrency: Revolutionizing Industries
+                </h4>
+                <p>Technology | 5 Mins</p>
+              </div>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap JS Bundle CDN (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
